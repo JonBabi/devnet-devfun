@@ -1,0 +1,35 @@
+# Credential files - NEVER commit these!
+credentials.json
+credentials.env
+
+# Session logs (contain device info)
+netmiko_session.log
+
+# Output directories
+switch_configs/
+lldp_neighbors/
+logs/
+
+# Failed switches list
+failed_switches.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Zip archives
+*.zip

@@ -1,0 +1,15 @@
+show lldp neighbor detail 
+show interfaces
+show vlan interface info
+show mac-address-table
+show system
+show sys-info
+show ISIS adjacencies
+show interfaces gbic-info
+show username
+show mlt
+show autotopology nmm-table
+show isis manual-area
+show fa agent
+show fa assignment
+show i-sid

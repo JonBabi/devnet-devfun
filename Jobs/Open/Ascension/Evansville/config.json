@@ -1,0 +1,8 @@
+{
+  "_comment": "device_type is now a fallback for unknown switch types. Core switches automatically use extreme_vsp, IDF switches use extreme_voss",
+  "device_type": "extreme",
+  "connection_timeout": 20,
+  "command_timeout": 30,
+  "show_run_timeout": 60,
+  "enable_session_log": false
+}

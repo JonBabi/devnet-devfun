@@ -1,0 +1,21 @@
+show lldp neighbor 
+show interfaces gigabitethernet
+show int vlan
+show mac-address-table
+show sys-info
+show Software
+show ISIS adjacencies
+show pluggable-optical-modules basic
+show IP route VRFID 0-7
+show IP ARP VRFID 0-7
+show cli username
+show vlan mac-address-entry
+show virtual-ist
+show smlt mlt
+show mlt
+show autotopology nmm-table
+show isis manual-area
+show fa agent
+show fa assignment
+show i-sid
+show vlan i-sid

@@ -1,0 +1,42 @@
+# Ignore everything at the root level
+/*
+
+# But include these specific directories
+!/Jobs/
+!/AI Training/
+!/.gitignore
+!/README.md
+
+# Within Jobs, only track specific paths
+/Jobs/*
+!/Jobs/Open/
+
+/Jobs/Open/*
+!/Jobs/Open/Ascension/
+
+/Jobs/Open/Ascension/*
+!/Jobs/Open/Ascension/Evansville/
+
+# Within AI Training, only track ClaudCode/Projects
+/AI Training/*
+!/AI Training/ClaudCode/
+
+/AI Training/ClaudCode/*
+!/AI Training/ClaudCode/Projects/
+
+# Ignore common files we don't want to track
+**/.DS_Store
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.log
+**/credentials.json
+**/credentials.env
+**/.env
+
+# Ignore collected data and output directories
+**/switch_configs/
+**/lldp_neighbors/
+**/switch_inventory/
+**/logs/
+**/failed_switches.txt
